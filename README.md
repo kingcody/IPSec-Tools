@@ -9,6 +9,10 @@ Install
 
     npm install git://github.com/kingcody/IPSec-Tools.git
 
+Use
+---
+
+    var ipsecTools = require('IPSec-Tools');
 
 
 Documentation
@@ -27,11 +31,11 @@ IP Tools
   *callback(ip)* -- *ip* is a simple string IP address; recieved from an internet request.
 
 **ipsecTools.ip.resolve(domain, calback)** - Resolve a domain to an IP address.  
-  *domain* -- the domain hostname to be resolved ex. https://www.google.com  
+  *domain* -- the domain hostname to be resolved, ex. `https://www.google.com`  
   *callback(ip)* -- *ip* is a simple string IP address
 
 **ipsecTools.ip.reverse(ip, callback)** - Reverse lookup an IP address to a domain hostname  
-  *ip* -- the IP address to be reverse lookup'ed, ex. 8.8.8.8  
+  *ip* -- the IP address to be reverse lookup'ed, ex. `8.8.8.8`  
   *callback(hostname)* -- *hostname* is the reversable domain hostname for the requested IP address
 
 Setkey Tools
