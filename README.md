@@ -18,7 +18,7 @@ Use
 Documentation
 =============
 
-As always, the best doc are in the source; but here we go.
+As always, the best docs are in the source; but here we go.
 
 IP Tools
 --------
