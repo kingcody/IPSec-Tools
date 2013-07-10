@@ -1,0 +1,24 @@
+{
+  "name": "IPSec-Tools",
+  "description": "NodeJS tools for managing IPSec VPN's",
+  "version": "0.0.1",
+  "main": "./IPSec-Tools.js",
+  "author": {
+    "name": "kingcody",
+    "email": "me@codymize.com"
+  },
+  "keywords": [],
+  "licenses": {
+    "type": "gpl30"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingcody/IPSec-Tools.git"
+  },
+  "bugs": {
+    "web": "http://github.com/kingcody/IPSec-Tools/issues"
+  },
+  "dependencies": {
+    "request": "~2.22.0"
+  }
+}
