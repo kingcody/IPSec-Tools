@@ -23,11 +23,11 @@ As always, the best docs are in the source; but here we go.
 IP Tools
 --------
 
-**ipsecTools.ip.getExt(callback[, family])** - Get internal network IP addresses.  
+**ipsecTools.ip.getInt(callback[, family])** - Get internal network IP addresses.  
   *family* -- optional arg, defaults to `IPv4`, but also accepts `IPv6`  
   *callback(interfaces)* -- *interfaces* is an object with interface names as keys and ip addresses as values
 
-**ipsecTools.ip.getInt(callback)** - Get external (wan) IP address.  
+**ipsecTools.ip.getExt(callback)** - Get external (wan) IP address.  
   *callback(ip)* -- *ip* is a simple string IP address; recieved from an internet request.
 
 **ipsecTools.ip.resolve(domain, calback)** - Resolve a domain to an IP address.  
