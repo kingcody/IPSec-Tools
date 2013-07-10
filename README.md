@@ -20,7 +20,7 @@ IP Tools
 --------
 
 **ipsecTools.ip.getExt(callback[, family])** - Get internal network IP addresses.  
-  Optional arg *family* defaults to `IPv4`, but also accepts `IPv6`  
+  *family* -- optional arg, defaults to `IPv4`, but also accepts `IPv6`  
   *callback(interfaces)* -- *interfaces* is an object with interface names as keys and ip addresses as values
 
 **ipsecTools.ip.getInt(callback)** - Get external (wan) IP address.  
@@ -39,6 +39,6 @@ Setkey Tools
 **ipsecTools.setkey** -- This is an instance of node.js EventEmitter and has a `stdout` event.  
   
   
-**ipsecTools.setkey.raw(command)** - Send a raw command to Setkey.
+**ipsecTools.setkey.raw(command)** - Send a raw command to Setkey.  
   *command* -- this is a standard setkey command with out a trailing semicolon, return, or new line  
   ex. `spdadd 10.0.0.11 10.0.0.216 any -P out ipsec esp/transport/66.77.88.99-11.22.33.44/require`
