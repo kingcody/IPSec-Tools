@@ -1,7 +1,7 @@
 {
   "name": "IPSec-Tools",
   "description": "NodeJS tools for managing IPSec VPN's",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./IPSec-Tools.js",
   "author": {
     "name": "kingcody",
