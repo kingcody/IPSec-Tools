@@ -40,9 +40,11 @@ IP Tools
 
 Setkey Tools
 ------------
-**ipsecTools.setkey** -- This is an instance of node.js EventEmitter and has a `stdout` event.  
+**ipsecTools.setkey** -- This is an instance of node.js EventEmitter and has `stdout` and `stderr` events.  
   
   
 **ipsecTools.setkey.raw(command)** - Send a raw command to Setkey.  
   *command* -- this is a standard setkey command with out a trailing semicolon, return, or new line  
-  ex. `spdadd 10.0.0.11 10.0.0.216 any -P out ipsec esp/transport/66.77.88.99-11.22.33.44/require`
+  ex. `spdadd 10.0.0.11 10.0.0.216 any -P out ipsec esp/transport/66.77.88.99-11.22.33.44/require`  
+  Optional - *command* may be an array of commands, following the same guidelines as the string version  
+  ex. `['spddump','spdflush']`
