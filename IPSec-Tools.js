@@ -3,8 +3,8 @@
  */
 
 // Module Imports
-var ipTools	= require('./lib/ip-tools.js'),
-	setkey	= require('./lib/setkey.js');
+var ipTools    = require('./lib/ip-tools.js'),
+    setkey     = require('./lib/setkey.js');
 
 // Contructor for IPSecTools
 var IPSecTools = function IPSecTools() {
@@ -13,8 +13,8 @@ var IPSecTools = function IPSecTools() {
 
 // Prototypically declaring IPSecTools' methods
 IPSecTools.prototype = {
-	ip: ipTools,
-	setkey: setkey
+  ip: ipTools,
+  setkey: setkey
 };
 
 module.exports = new IPSecTools();
